@@ -2,63 +2,32 @@
 Welcome to the Advanced Neural Network for Multi-Class Classification repository! This project implements a PyTorch-based neural network following the novel approach outlined in "A Multi-Class Classification Model with Parameterized Target Outputs for Randomized-Based Feedforward Neural Networks" (Applied Soft Computing, 2023). Our goal is to bring the advanced theoretical framework of parameterized target outputs into a practical, high-performance model that simplifies multi-class classification with enhanced separability and generalization. Through this implementation, we aim to bridge theory and practice, providing a resource for learning and experimentation with PyTorch.
 
 ## Table of Contents
-
 - [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Installation and Usage](#installation-and-usage)
 - [Contributors](#contributors)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 
 ## Requirements
-
 - Python 3.X.X
 
-## Installation
-
-1. Clone the repository:
+## Installation and Usage
+Clone the repository and navigate into its directory:
    
-    ```sh
-    git clone https://github.com/rorro6787/randomized-based-feedforward-neural-network.git
-    ```
-3. Navigate to the project directory:
-   
-    ```sh
-    cd randomized-based-feedforward-neural-network/src
-    ```
-5. (Optional) Create a virtual environment:
-   
-    ```sh
-    python3 -m venv venv
-    .\venv\Scripts\activate  # On macOS/Linux use 'python -m venv venv
-                                                   source venv/bin/activate'
-    ```
-7. Install the required packages:
-   
-    ```sh
-    pip install -r requirements.txt
-    ```
-5. Select venv as your python interpreter (in VSC):
-   
-    ```sh
-    > Python: Select Interpreter
-    .\venv\Scripts\python.exe # On macOS/Linux use './venv/bin/python'
-    ```
-
-## Usage
-
-Run the following script to train and test the neural network described in the article:
-
-```sh
-python feedforward_network.py
-```
+ ```sh
+ git clone https://github.com/rorro6787/randomized-based-feedforward-neural-network.git
+ cd randomized-based-feedforward-neural-network
+ ```
+Install dependencies and run the training/testing script:
+ ```sh
+ chmod +x setup.sh
+ ./setup.sh
+ ```
 
 ## Contributors
-
 - [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/rorro6787) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/emilio-rodrigo-carreira-villalta-2a62aa250/) **Emilio Rodrigo Carreira Villalta**
 
 ## Contributing
-
 Contributions are welcome! Please follow these steps:
 
 1. Fork the repository
